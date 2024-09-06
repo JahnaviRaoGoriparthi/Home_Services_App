@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <!-- activity_main.xml -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context=".pay1">
+
+        <CheckBox
+            android:id="@+id/checkbox_option1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Normal Repair"
+            android:textStyle="bold"/>
+
+        <CheckBox
+            android:id="@+id/checkbox_option2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium Level Repair"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkbox_option3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HighLevel Repair"
+            android:textStyle="bold" />
+
+        <!-- Add more checkboxes as needed -->
+
+        <Button
+            android:id="@+id/button_calculate_payment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total bill:" />
+
+        <TextView
+            android:id="@+id/textview_payment_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amount : "
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkbox_confirm_payment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirm Payment"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/button_online_payment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Online Payment"
+            android:enabled="false" />
+
+        <Button
+            android:id="@+id/button_offline_payment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:text="Offline Payment" />
+
+    </LinearLayout>

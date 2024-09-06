@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">HomeServices</string>
+    <string name="button1_text">ONLINE</string>
+    <string name="button2_text">Hand_Cash</string>
+    <string name="checkBox_text">Once again verify amount of ur repair. </string>
+    <string-array name="options_array">
+        <item>Select your repair type </item>
+        <item>Normal check up---Rs150/-</item>
+        <item>Normal check up---Rs150/-</item>
+        <item>Normal check up---Rs150/-</item>
+        <item>Normal check up---Rs150/-</item>
+    </string-array>
+</resources>
